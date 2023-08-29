@@ -1,0 +1,131 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.App {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  background-color: rgb(250, 250, 250);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/* change burger icon color by change stroke in background-image */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke='rgba(255,255,255)' stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e") !important;
+}
+/* change burger icon border color by change color in .navbar-toggler class */
+.navbar-toggler {
+  color: #ffffff !important ;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #49c6e9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.page-link {
+  background-color: #f9f9f9 !important;
+  color: #272727 !important;
+  border-radius: 10px !important;
+  border: solid 1px 272727 !important;
+}
+.page-link:hover {
+  background-color: #272727 !important;
+  color: white !important;
+  border: solid 1px 272727 !important;
+}
+.category-header {
+  background-color: #ffffff;
+  min-height: 50px;
+}
+.title-container div {
+  padding-left: 15px;
+}
+.dropdown-search .btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: transparent;
+}
+.dropdown-search .btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: transparent;
+}
+.dropdown-search .dropdown-toggle::after {
+  content: none !important;
+}
+.side-filter h4 {
+  text-align: start;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.side-filter .price-inp {
+  max-width: 50px;
+  margin-right: 5px;
+}
+.dropdown-toggle {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold  !important;
+  margin-top: 14px;
+}
+.dropdown-menu {
+  background-color: #212529 !important;
+  color: white !important;
+}
+.dropdown-item {
+  color: white !important;
+  text-align: center !important;
+}
+.dropdown-item:hover {
+  color: #212529 !important;
+  background-color: white !important;
+}

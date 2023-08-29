@@ -1,0 +1,7 @@
+export const GET_ALL_CATEGORY = "GET_ALL_CATEGORY";
+export const GET_ERROR="GET_ERROR";
+export const ADD_USER='ADD_USER';
+export const LOGIN_USER='LOGIN_USER'
+export const FORGET_PASSWORD='FORGET_PASSWORD'
+export const RESET_PASSWORD='RESET_PASSWORD'
+export const NEW_PASSWORD='NEW_PASSWORD'

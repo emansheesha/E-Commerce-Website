@@ -1,0 +1,27 @@
+.header {
+  color: rgb(204, 191, 191);
+}
+.rate {
+  color: #ffc107;
+}
+.details {
+  max-width: 500px;
+}
+.color1 {
+    min-width: 25px;
+    border-radius: 50%;
+    background-color: red;
+    color: red;
+}
+.color2 {
+    min-width: 25px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #000000;
+}
+.color3 {
+    min-width: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #ffffff;
+}

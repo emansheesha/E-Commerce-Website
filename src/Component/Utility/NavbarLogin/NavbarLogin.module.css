@@ -1,0 +1,23 @@
+.search {
+  min-width: 62vw;
+}
+.text {
+  color: #ffffff;
+}
+.logo {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+.app_logo {
+  height: 46px;
+  width: 50px;
+}
+.toggle {
+    color: #ffffff!important;
+}
+.login-img{
+  height: 5px;
+  max-width: 5px;
+}
+

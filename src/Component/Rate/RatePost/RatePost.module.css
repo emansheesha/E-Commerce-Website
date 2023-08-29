@@ -1,0 +1,18 @@
+.rate {
+  color: #ffc107;
+}
+h4 {
+  text-align: start;
+
+}
+section {
+  color: rgb(204, 191, 191);
+  text-align: start;
+  font-size: 16px;
+  font-weight: 600;
+}
+.rate_post {
+  border-bottom: 1px solid rgb(204, 191, 191);
+  
+
+}

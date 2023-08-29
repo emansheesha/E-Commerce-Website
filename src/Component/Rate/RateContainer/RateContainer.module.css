@@ -1,0 +1,15 @@
+.rate {
+  color: #ffc107;
+}
+h4 {
+  text-align: start;
+}
+.high_rate {
+  color: rgb(204, 191, 191);
+}
+.rate_container {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 15px;
+  
+}
